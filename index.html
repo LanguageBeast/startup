@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <head>
+        <title>マーティンの日記</title>
+        <!-- My CSS -->
+        <link rel="stylesheet" type="text/css" href="indexcss.css">
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Animated CSS stylesheet -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
+        <!-- CSS Animated file -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
 
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Fate's Call</title>
-  </head>
+        <!-- Google Japanese Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="container d-flex align-items-center h-100">
-      <div class="row col-12">
-        <header class="text-center col-12">
-          <h1 class="animate__animated animate__jackInTheBox"><strong>WELCOME TO MY PAGE!</strong></h1>
-          <p class="text-uppercase animate__animated animate__jackInTheBox">Let's learn some japanese now!</p>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr style="border-color:maroon; border-width:5px; width: 3em;">
-          <a href="https://mailchi.mp/df480d7f5c6a/real-japanese">
-            <button class="btn btn-primary btn-x1">ASCEND TO JAPAN</button>
-          </a>
-        </section>
-      </div>
-    </div>
+        <!-- Favicon -->
+        <link rel="icon" href="./images/favicon/favicon-16x16.png">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+
+    </head>
+    <body>
+        <nav class="main-nav">
+            <ul class="nav-list-links">
+                <li><a href="diary.html">日記</a></li>
+                <li><a href="about.html">私について</a></li>
+                <li><a href="contact.html">私へメールを！</a></li>
+                <li id="last-nav-list-links"><a href="">English</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1 class="animate__animated animate__fadeInDown">ブログにようこそ！</h1>
+            <section class="introduction">
+                <p>私は元気君としてください。スペイン語話者です。</p>
+                <p>私はお名前が元気ではないが、そんなわけが好きの。</p>
+                <p>このメッセージは元気君より。</p>
+            </section>
+            <hr>
+            <section class="about-me">
+                <p></p>これは私が初めてつくるページから、お名前を教える前に、ちょっと時間がついてくれますね。</p>
+                <article class="my-article">
+                    <header class="header-message">
+                        皆に私の写真に与えるのもちょっと無理んです。却って、これをください。
+                        マリリン・モンローには私が感心があるんです。
+                        <figure class="marilyn-figure">
+                            <img src="./images/marilyn.jpg">
+                            <figcaption>クイーンですね。</figcaption>
+                        </figure>
+                        
+                    </header>
+                </article>
+            </section>
+        </div>
+        <h1 class="animate__animated animate__fadeInDown kanji-title">私の好きな漢字</h1>
+        <div class="kanji-showcase">
+            <div class="border zone kanji sad">鬱</div>
+            <div class="border zone kanji love">競</div>
+            <div class="border zone kanji dare">冒</div>
+            <div class="border zone kanji joy">善</div>
+            <div class="border zone kanji forest">森</div>
+            <div class="border zone kanji filial-piety">孝</div>
+        </div>
+
+        <footer class="my-footer">
+            
+        </footer>
+
+
+    </body>
 </html>
